@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ESNext",
+    "lib": ["esnext", "dom"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["cypress", "node"],
+
+    /* Type Checking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "skipLibCheck": true,
+
+    /* Module & Interop */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    /* Source Maps (optional, useful for debugging) */
+    "sourceMap": true
+  },
+  "include": [
+    "cypress/**/*.ts",
+    "cypress/**/*.cy.ts",
+    "cypress/support/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
